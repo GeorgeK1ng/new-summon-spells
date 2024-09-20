@@ -1,0 +1,83 @@
+{
+	"summonStormbird":
+	{
+		"type": "combat", 
+		"name": "Stormbird",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level": 4,
+		"power": 20,
+		"defaultGainChance": 4, 
+		"gainChance":
+		{
+			"cove": 12
+		},
+		"flags" : 
+		{
+            "indifferent": true
+        }, 
+		"graphics":
+		{
+			"iconBook": "AnotherSummon/stormbird_iconBook",
+			"iconScroll": "AnotherSummon/stormbird_iconScroll",
+			"iconScenarioBonus": "AnotherSummon/stormbird_iconScenario",
+			"iconEffect": "AnotherSummon/stormbird_iconEffect"
+		},
+		
+		"animation":
+		{
+			"cast": ["AnotherSummon/C12SPF0.def"]
+		},
+
+		"sounds":
+		{
+			"cast": "SUMNELM"
+		},
+		
+		"targetType": "NO_TARGET",
+ 
+		"levels":
+	    {
+			"base":
+			{
+				"description": "{Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds. Once cast, any other creature can be summoned.",
+				"power": 1,
+				"aiValue": 10,
+				"cost": 22,
+				"range": "X",
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":false, //so it means that other creature can be summoned?
+						"id":"hota.cove:stormbird",
+						"permanent":false,
+						"type":"core:summon"
+					}
+				}				
+			},		
+			"none":
+			{
+			},
+			"basic":
+			{
+				"cost": 22,
+				"power": 2
+			},
+			"advanced":
+			{
+				"cost": 18,
+				"power": 3
+			},
+			"expert":
+			{ 
+				"cost": 14,
+				"power": 4
+			}
+		}
+	}
+}

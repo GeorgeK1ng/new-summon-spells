@@ -1,0 +1,79 @@
+{
+	"summonAngel":
+	{
+		"type": "combat", 
+		"name": "Angel",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level": 5,
+		"power": 1,
+		"defaultGainChance": 4, 
+		"gainChance":
+		{
+            "castle": 10
+		},
+		"flags" : {
+			"indifferent": true
+        }, 
+		"graphics":
+		{
+			"iconBook": "AnotherSummon/angel_iconBook",
+			"iconScroll": "AnotherSummon/angel_iconScroll",
+			"iconScenarioBonus": "AnotherSummon/angel_iconScenario",
+			"iconEffect": "AnotherSummon/angel_iconEffect"
+		},
+		"animation":
+		{
+			"cast": ["AnotherSummon/C12SPF0.def"]
+		},
+		"sounds":
+		{
+			"cast": "SUMNELM"
+		},
+		"targetType": "NO_TARGET",
+		"levels":
+	     {
+			"base":
+			{
+				"description": "{Summon Angel}\r\n\r\nAllows you to summon Angels. Once cast, any other creature can be summoned.",
+				"power": 20,
+				"aiValue": 10,
+				"cost": 30,
+				"range": "X",
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":false, //so it means that other creature can be summoned?
+						"id":"angel",
+						"permanent":false,
+						"summonByHealth" : true,
+						"type":"core:summon"
+					}
+				}				
+			},		
+			"none":
+			{
+			},
+			"basic":
+			{
+				"cost": 30,
+				"power": 20
+			},
+			"advanced":
+			{
+				"cost": 25,
+				"power": 40
+			},
+			"expert":
+			{
+				"cost": 20,
+				"power": 60
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name" : "Summon HotA Creatures",
+	"description" : "Two summoning spells: Nymphs and Stormbirds. After casting, another summon spell can be casted in next turn.",
+	"author" : "avatar, Kurek, Igrik (author of similar ERA mod).",
+	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
+	"version" : "1.00",
+	"modType" : "Compatibility",	
+	"keepDisabled" : true,
+	
+	"spells" :
+	[
+		"config/spells/summonStormbird",
+		"config/spells/summonNymph"
+	],
+    "depends": 
+    [
+		"hota.cove"
+    ]
+}

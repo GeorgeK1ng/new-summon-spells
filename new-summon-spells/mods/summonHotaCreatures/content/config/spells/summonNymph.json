@@ -1,0 +1,79 @@
+{
+	"summonNymph":
+	{
+		"type": "combat", 
+		"name": "Nymph",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level": 3,
+		"power": 1,
+		"defaultGainChance": 4, 
+		"gainChance":
+		{
+            "cove": 10
+		},
+		"flags" : {
+			"indifferent": true
+        }, 
+		"graphics":
+		{
+			"iconBook": "AnotherSummon/nymph_iconBook",
+			"iconScroll": "AnotherSummon/nymph_iconScroll",
+			"iconScenarioBonus": "AnotherSummon/nymph_iconScenario",
+			"iconEffect": "AnotherSummon/nymph_iconEffect"
+		},
+		"animation":
+		{
+			"cast": ["AnotherSummon/C12SPF0.def"]
+		},
+		"sounds":
+		{
+			"cast": "SUMNELM"
+		},
+		"targetType": "NO_TARGET",
+		"levels":
+	     {
+			"base":
+			{
+				"description": "{Summon Nymph}\r\n\r\nAllows you to summon Nymphs. Once cast, any other creature can be summoned.",
+				"power": 20,
+				"aiValue": 10,
+				"cost": 15,
+				"range": "X",
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":false, //so it means that other creature can be summoned?
+						"id":"hota.cove:nymph",
+						"permanent":false,
+						"summonByHealth" : true,
+						"type":"core:summon"
+					}
+				}				
+			},		
+			"none":
+			{
+			},
+			"basic":
+			{
+				"cost": 15,
+				"power": 40
+			},
+			"advanced":
+			{
+				"cost": 12,
+				"power": 80
+			},
+			"expert":
+			{
+				"cost": 9,
+				"power": 120
+			}
+		}
+	}
+}

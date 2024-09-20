@@ -1,0 +1,80 @@
+{
+	"summonEfreet":
+	{
+		"type": "combat", 
+		"name": "Summon Efreet",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 5,
+		"power": 1,
+		"defaultGainChance": 4, 
+		"gainChance":
+		{
+            "inferno": 10
+		},
+		"flags" : 
+		{
+			"indifferent": true
+        }, 
+		"graphics":
+		{
+			"iconBook": "AnotherSummon/efreet_iconBook.bmp",
+			"iconScroll": "AnotherSummon/efreet_iconScroll.bmp",
+			"iconScenarioBonus": "AnotherSummon/efreet_iconScenario.bmp",
+			"iconEffect": "AnotherSummon/efreet_iconEffect.bmp"
+		},
+		"animation":
+		{
+			"cast": ["AnotherSummon/C12SPF0.def"]
+		},
+		"sounds":
+		{
+			"cast": "SUMNELM"
+		},
+		"targetType": "NO_TARGET",
+		"levels":
+	     {
+			"base":
+			{
+				"description": "{Summon Efreet}\r\n\r\nAllows you to summon Efreets.", //Once cast, no other creature can be summoned.",
+				"power": 18,
+				"aiValue": 10,
+				"cost": 30,
+				"range": "X",
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":false, //so it means that other creature can be summoned?
+						"id":"efreet",
+						"permanent":false,
+						"summonByHealth" : true,
+						"type":"core:summon"
+					}
+				}				
+			},		
+			"none":
+			{
+			},
+			"basic":
+			{
+				"cost": 25,
+				"power": 18
+			},
+			"advanced":
+			{
+				"cost": 25,
+				"power": 36
+			},
+			"expert":
+			{
+				"cost": 25,
+				"power": 54
+			}
+		}
+	}
+}

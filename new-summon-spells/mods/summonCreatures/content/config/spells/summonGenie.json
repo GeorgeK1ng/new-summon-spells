@@ -1,0 +1,78 @@
+{
+	"summonGenie":
+	{
+		"type": "combat", 
+		"name": "Genie",
+		"school":
+		{
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 30,
+		"defaultGainChance": 4, 
+		"gainChance":
+		{
+            "tower": 12
+		},
+		"flags" : {
+			"indifferent": true
+        }, 
+		"graphics":
+		{
+			"iconBook": "AnotherSummon/genie_iconBook",
+			"iconScroll": "AnotherSummon/genie_iconScroll",
+			"iconScenarioBonus": "AnotherSummon/genie_iconScenario",
+			"iconEffect": "AnotherSummon/genie_iconEffect"
+		},
+		"animation":
+		{
+			"cast": ["AnotherSummon/C12SPF0.def"]
+		},
+		"sounds":
+		{
+			"cast": "AnotherSummon/SUMNELM.wav"
+		},
+		"targetType": "NO_TARGET",
+		"levels":
+	     {
+			"base":
+			{
+				"description": "{Summon Genie}\r\n\r\nAllows you to summon Genies. Once cast, any other creature can be summoned.",
+				"power": 1,
+				"aiValue": 10,
+				"cost": 30,
+				"range": "X",
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":false, //so it means that other creature can be summoned?
+						"id":"genie",
+						"permanent":false,
+						"type":"core:summon"
+					}
+				}				
+			},		
+			"none":
+			{
+			},
+			"basic":
+			{
+				"cost": 30,
+				"power": 1
+			},
+			"advanced":
+			{
+				"cost": 25,
+				"power": 2
+			},
+			"expert":
+			{
+				"cost": 20,
+				"power": 3
+			}
+		}
+	}
+}

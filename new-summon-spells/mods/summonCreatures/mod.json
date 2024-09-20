@@ -1,0 +1,18 @@
+{
+	"name" : "New Summon Spells",
+	"description" : "Five new summon spells: summon Wights, Demons, Genies, Angels. After casting, another summon spell can be casted in next turn.",
+	"author" : "avatar, Kurek, Igrik (author of similar ERA mod).",
+	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
+	"version" : "1.00",
+	"modType" : "Spells",	
+
+	"spells" :
+	[
+       "config/spells/summonDemon",
+       "config/spells/summonGenie",
+       "config/spells/summonWight",
+	   "config/spells/summonAngel"
+//	   "config/spells/summonEfreet"
+	]
+
+}
