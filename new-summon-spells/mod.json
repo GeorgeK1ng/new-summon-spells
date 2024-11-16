@@ -3,15 +3,23 @@
 	"description" : "New summon creature spells",
 	"author" : "avatar, Kurek, Igrik (author of similar ERA mod).",
 	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
-	"version" : "1.01",
+	"version" : "1.02",
 	"modType" : "Spells",
 	"compatibility" :
 	{
 		"min" : "1.5.0"
 	},	
 	"changelog" :
-    {
-		"1.01"   : [ "Small fixes" ],
-		"1.00"   : [ "Initial release" ]
-    }
+    {		
+		"1.00"   : [ "Initial release" ],
+                "1.01"   : [ "Small fixes" ],
+                "1.02"   : [ "Polish translation added by FallainBlack" ]
+    },
+        "polish" : {
+		"name" : "Nowe Zaklęcia Przyzwania",
+		"description" : "Nowe zaklęcia przyzwania stworzen",
+                "translations" : [
+			"translation/new-summon-spells/polish.json"
+                                 ]
+	}
 }
