@@ -7,6 +7,12 @@
 	"modType" : "Compatibility",	
 	"keepDisabled" : true,
 	
+	"chinese":
+	{
+		"name" : "新的深渊号角生物召唤魔法",
+		"description" : "新的两种召唤魔法：召唤泉水精灵、暴风鸟。施法后，下回合可以施放别的召唤魔法。"
+	},
+	
 	"spells" :
 	[
 		"config/spells/summonStormbird",

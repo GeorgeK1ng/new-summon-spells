@@ -5,6 +5,12 @@
 	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
 	"version" : "1.00",
 	"modType" : "Spells",	
+	
+	"chinese":
+	{
+		"name" : "新的原版生物召唤魔法",
+		"description" : "新的五种召唤魔法：召唤幽灵、恶魔、神怪、天使。施法后，下回合可以施放别的召唤魔法。"
+	},
 
 	"spells" :
 	[

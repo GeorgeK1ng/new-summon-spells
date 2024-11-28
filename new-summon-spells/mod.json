@@ -3,7 +3,7 @@
 	"description" : "New summon creature spells",
 	"author" : "avatar, Kurek, Igrik (author of similar ERA mod).",
 	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
-	"version" : "1.02",
+	"version" : "1.03",
 	"modType" : "Spells",
 	"compatibility" :
 	{
@@ -12,8 +12,9 @@
 	"changelog" :
     {		
 		"1.00"   : [ "Initial release" ],
-                "1.01"   : [ "Small fixes" ],
-                "1.02"   : [ "Polish translation added by FallainBlack" ]
+		"1.01"   : [ "Small fixes" ],
+		"1.02"   : [ "Polish translation added by FallainBlack" ],
+		"1.03"   : [ "Chinese translation by CurryUdon" ]
     },
         "polish" : {
 		"name" : "Nowe Zaklęcia Przyzwania",
@@ -21,5 +22,12 @@
                 "translations" : [
 			"translation/new-summon-spells/polish.json"
                                  ]
+	},
+	"chinese":{
+	    "name" : "新召唤魔法",
+	    "description" : "新的生物召唤魔法",
+	    "translations" : [
+	        "translation/new-summon-spells/chinese.json"
+	    ]
 	}
 }
