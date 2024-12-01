@@ -1,7 +1,7 @@
 {
     "summonEfreet": {
         "type": "combat",
-        "name": "Summon Efreet",
+        "name": "Efreet",
         "school": {
             "air": false,
             "earth": false,
