@@ -1,0 +1,28 @@
+{
+	"name" : "Summon Asylum Creatures",
+	"description" : "Change Summon Jester description and exlusivity",
+	"author" : "",
+	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
+	"version" : "1.00",
+	"modType" : "Compatibility",
+
+	"spells" :
+	[
+		"config/spells/summonJester"
+	],
+    "depends": 
+    [
+		"asylum-town"
+    ],
+	"softDepends" :
+    [
+        "new-summon-spells.summonAsylumCreatures"
+    ],
+	"czech":{
+		"name" : "Summon Asylum Creatures",
+		"description" : "Change Summon Jester description and exlusivity",
+	    "translations" : [
+	        "translation/summonAsylumCreatures/czech.json"
+	    ]
+	}
+}
