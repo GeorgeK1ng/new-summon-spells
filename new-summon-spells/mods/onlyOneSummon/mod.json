@@ -1,0 +1,32 @@
+{
+	"name": "Single-Type Summoning",
+    "description": "This modification changes the settings for summoning spells. Now, only one type of unit can be summoned during a battle.",
+	"author" : "avatar, Kurek, Igrik (author of similar ERA mod).",
+	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
+	"version" : "1.00",
+	"modType" : "Spells",	
+	"keepDisabled" : true,
+	"spells" :
+	[
+		"config/spells/summonAngel",
+		"config/spells/summonGenie",
+		"config/spells/summonDemon",
+		"config/spells/summonEfreeti",
+		"config/spells/summonWight",
+		"config/spells/summonPsychicElemental",
+		"config/spells/summonElementals"
+	],
+	"softDepends" :
+    [
+        "new-summon-spells.summonAsylumCreatures",
+        "new-summon-spells.summonHotaCreatures",
+        "new-summon-spells.summonToWCreatures"
+    ],
+	"czech":{
+	    "name" : "Přivolání pouze jednoho typu",
+	    "description" : "Tato modifikace mění nastavení přivolávacích kouzel. Nyní je možné přivolat pouze jeden typ jednotky během bitvy.",
+	    "translations" : [
+	        "translation/onlyOneSummon/czech.json"
+	    ]
+	}
+}

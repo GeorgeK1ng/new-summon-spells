@@ -1,0 +1,6 @@
+{
+	"spell.asylum-town.summonJester.description.advanced" : "{Lepší přivolej šašky}\r\n\r\nUmožňuje přivolat šašky.\r\n\r\nPo seslání tohoto kouzla nelze použít další přivolávací kouzlo.",
+	"spell.asylum-town.summonJester.description.basic" : "{Základní přivolej šašky}\r\n\r\nUmožňuje přivolat šašky.\r\n\r\nPo seslání tohoto kouzla nelze použít další přivolávací kouzlo.",
+	"spell.asylum-town.summonJester.description.expert" : "{Expert přivolej šašky}\r\n\r\nUmožňuje přivolat šašky.\r\n\r\nPo seslání tohoto kouzla nelze použít další přivolávací kouzlo.",
+	"spell.asylum-town.summonJester.description.none" : "{Přivolej šašky}\r\n\r\nUmožňuje přivolat šašky.\r\n\r\nPo seslání tohoto kouzla nelze použít další přivolávací kouzlo."
+}

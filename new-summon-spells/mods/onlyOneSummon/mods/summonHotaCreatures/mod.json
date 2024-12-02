@@ -6,12 +6,6 @@
 	"version" : "1.00",
 	"modType" : "Compatibility",	
 
-	"chinese":
-	{
-		"name" : "新的深渊号角生物召唤魔法",
-		"description" : "新的两种召唤魔法：召唤泉水精灵、暴风鸟。施法后，下回合可以施放别的召唤魔法。"
-	},
-	
 	"spells" :
 	[
 		"config/spells/summonStormbird",
@@ -19,6 +13,17 @@
 	],
     "depends": 
     [
-		"hota.cove"
-    ]
+		"new-summon-spells.summonhotacreatures"
+    ],
+	"softDepends" :
+    [
+        "new-summon-spells.summonHotaCreatures"
+    ],
+	"czech":{
+		"name" : "Summon HotA Creatures",
+		"description" : "Two summoning spells: Nymphs and Stormbirds. After casting, another summon spell can be casted in next turn.",
+	    "translations" : [
+	        "translation/summonHotaCreatures/czech.json"
+	    ]
+	}
 }

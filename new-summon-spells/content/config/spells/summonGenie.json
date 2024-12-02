@@ -1,27 +1,27 @@
 {
-    "summonStormbird": {
+    "summonGenie": {
         "type": "combat",
-        "name": "Stormbird",
+        "name": "Genie",
         "school": {
-            "air": false,
+            "air": true,
             "earth": false,
             "fire": false,
-            "water": true
+            "water": false
         },
-        "level": 4,
-        "power": 20,
+        "level": 5,
+        "power": 30,
         "defaultGainChance": 4,
         "gainChance": {
-            "cove": 12
+            "tower": 12
         },
         "flags": {
             "indifferent": true
         },
         "graphics": {
-            "iconBook": "AnotherSummon/stormbird_iconBook",
-            "iconScroll": "AnotherSummon/stormbird_iconScroll",
-            "iconScenarioBonus": "AnotherSummon/stormbird_iconScenario",
-            "iconEffect": "AnotherSummon/stormbird_iconEffect"
+            "iconBook": "genie/spellBook",
+            "iconScroll": "genie/spellScroll",
+            "iconScenarioBonus": "genie/bonusSpell",
+            "iconEffect": "genie/spellEffect"
         },
         "animation": {
             "cast": [
@@ -34,9 +34,9 @@
         "targetType": "NO_TARGET",
         "levels": {
             "base": {
-                "description": "{Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
+                "description": "{Summon Genie}\r\n\r\nAllows you to summon Genies. Once cast, any other creature can be summoned.",
                 "range": "X",
-                "cost": 26,
+                "cost": 35,
                 "power": 1,
 				"aiValue": 10,
                 //"targetModifier": {
@@ -45,7 +45,7 @@
                 "battleEffects": {
                     "summon": {
                         "exclusive": false,
-                        "id": "hota.cove:stormbird",
+                        "id": "genie",
                         "permanent": false,
                         //"summonByHealth": true,
                         "type": "core:summon"
@@ -53,25 +53,25 @@
                 }
             },
             "none": {
-                "cost": 26,
+                "cost": 45,
                 "power": 1,
 				"aiValue": 10
             },
             "basic": {
-				"description": "{Basic Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 22,
+				"description": "{Basic Summon Genie}\r\n\r\nAllows you to summon Genies. Once cast, any other creature can be summoned.",
+                "cost": 35,
                 "power": 2,
 				"aiValue": 11
             },
             "advanced": {
-				"description": "{Advanced Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 18,
+				"description": "{Advanced Summon Genie}\r\n\r\nAllows you to summon Genies. Once cast, any other creature can be summoned.",
+                "cost": 35,
                 "power": 3,
 				"aiValue": 12
             },
             "expert": {
-				"description": "{Expert Summon Stormbird}\r\n\r\nAllows you to summon Stormbirds.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 14,
+				"description": "{Expert Summon Genie}\r\n\r\nAllows you to summon Genies. Once cast, any other creature can be summoned.",
+                "cost": 35,
                 "power": 4,
 				"aiValue": 13
             }

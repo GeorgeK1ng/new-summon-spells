@@ -1,0 +1,28 @@
+{
+	"name" : "Summon ToW Creatures",
+	"description" : "Change Summon Ghosts description and exlusivity",
+	"author" : "",
+	"contact" : "https://www.forum.acidcave.net/topic.php?TID=2961",
+	"version" : "1.00",
+	"modType" : "Compatibility",
+
+	"spells" :
+	[
+		"config/spells/summonGhost"
+	],
+    "depends": 
+    [
+		"tides-of-war.neutral-creatures"
+    ],
+	"softDepends" :
+    [
+        "new-summon-spells.summonToWCreatures"
+    ],
+	"czech":{
+		"name" : "Summon ToW Creatures",
+		"description" : "Change Summon Ghosts description and exlusivity",
+	    "translations" : [
+	        "translation/summonToWCreatures/czech.json"
+	    ]
+	}
+}

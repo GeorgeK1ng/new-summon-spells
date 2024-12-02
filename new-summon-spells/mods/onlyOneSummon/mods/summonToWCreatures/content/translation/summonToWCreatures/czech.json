@@ -1,0 +1,6 @@
+{
+	"spell.tides-of-war.spells.summonGhost.description.advanced" : "{Lepší přivolej strašidla}\r\n\r\nUmožňuje přivolat strašidla.\r\n\r\nPo seslání tohoto kouzla nelze použít další přivolávací kouzlo.",
+	"spell.tides-of-war.spells.summonGhost.description.basic" : "{Základní přivolej strašidla}\r\n\r\nUmožňuje přivolat strašidla.\r\n\r\nPo seslání tohoto kouzla nelze použít další přivolávací kouzlo.",
+	"spell.tides-of-war.spells.summonGhost.description.expert" : "{Expert přivolej strašidla}\r\n\r\nUmožňuje přivolat strašidla.\r\n\r\nPo seslání tohoto kouzla nelze použít další přivolávací kouzlo.",
+	"spell.tides-of-war.spells.summonGhost.description.none" : "{Přivolej strašidla}\r\n\r\nUmožňuje přivolat strašidla.\r\n\r\nPo seslání tohoto kouzla nelze použít další přivolávací kouzlo."
+}
