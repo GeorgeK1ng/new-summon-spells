@@ -25,7 +25,7 @@
         },
         "animation": {
             "cast": [
-                "AnotherSummon/C12SPF0.def"
+                "C12SPF0.def"
             ]
         },
         "sounds": {

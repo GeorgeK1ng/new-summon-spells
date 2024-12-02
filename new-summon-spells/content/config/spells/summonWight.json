@@ -18,14 +18,14 @@
             "indifferent": true
         },
         "graphics": {
-            "iconBook": "AnotherSummon/wight_iconBook",
-            "iconScroll": "AnotherSummon/wight_iconScroll",
-            "iconScenarioBonus": "AnotherSummon/wight_iconScenario",
-            "iconEffect": "AnotherSummon/wight_iconEffect"
+            "iconBook": "wight/spellBook",
+            "iconScroll": "wight/spellScroll",
+            "iconScenarioBonus": "wight/bonusSpell",
+            "iconEffect": "wight/spellEffect"
         },
         "animation": {
             "cast": [
-                "AnotherSummon/C12SPF0.def"
+                "C12SPF0.def"
             ]
         },
         "sounds": {
@@ -54,25 +54,25 @@
             },
             "none": {
                 "cost": 18,
-                "power": 3,
+                "power": 1,
 				"aiValue": 10
             },
             "basic": {
 				"description": "{Basic Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
-                "cost": 15,
-                "power": 4,
+                "cost": 14,
+                "power": 2,
 				"aiValue": 11
             },
             "advanced": {
 				"description": "{Advanced Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
-                "cost": 12,
-                "power": 5,
+                "cost": 14,
+                "power": 3,
 				"aiValue": 12
             },
             "expert": {
 				"description": "{Expert Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
-                "cost": 9,
-                "power": 6,
+                "cost": 14,
+                "power": 4,
 				"aiValue": 13
             }
         }

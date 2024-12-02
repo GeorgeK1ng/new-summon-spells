@@ -1,7 +1,7 @@
 {
-    "summonEfreet": {
+    "summonEfreeti": {
         "type": "combat",
-        "name": "Summon Efreet",
+        "name": "Efreeti",
         "school": {
             "air": false,
             "earth": false,
@@ -18,14 +18,14 @@
             "indifferent": true
         },
         "graphics": {
-            "iconBook": "AnotherSummon/efreet_iconBook.bmp",
-            "iconScroll": "AnotherSummon/efreet_iconScroll.bmp",
-            "iconScenarioBonus": "AnotherSummon/efreet_iconScenario.bmp",
-            "iconEffect": "AnotherSummon/efreet_iconEffect.bmp"
+            "iconBook": "efreet/spellBook",
+            "iconScroll": "efreet/spellScroll",
+            "iconScenarioBonus": "efreet/bonusSpell",
+            "iconEffect": "efreet/spellEffect"
         },
         "animation": {
             "cast": [
-                "AnotherSummon/C12SPF0.def"
+                "C12SPF0.def"
             ]
         },
         "sounds": {
@@ -34,7 +34,7 @@
         "targetType": "NO_TARGET",
         "levels": {
             "base": {
-                "description": "{Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, any other creature can be summoned.",
+                "description": "{Summon Efreeti}\r\n\r\nAllows you to summon Efreet.\r\n\r\nOnce cast, any other creature can be summoned.",
                 "range": "X",
                 "cost": 35,
                 "power": 1,
@@ -53,25 +53,25 @@
                 }
             },
             "none": {
-                "cost": 35,
+                "cost": 50,
                 "power": 1,
 				"aiValue": 10
             },
             "basic": {
-				"description": "{Basic Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 30,
+				"description": "{Basic Summon Efreeti}\r\n\r\nAllows you to summon Efreet.\r\n\r\nOnce cast, any other creature can be summoned.",
+                "cost": 40,
                 "power": 2,
 				"aiValue": 11
             },
             "advanced": {
-				"description": "{Advanced Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 25,
+				"description": "{Advanced Summon Efreeti}\r\n\r\nAllows you to summon Efreet.\r\n\r\nOnce cast, any other creature can be summoned.",
+                "cost": 50,
                 "power": 3,
 				"aiValue": 12
             },
             "expert": {
-				"description": "{Expert Summon Efreet}\r\n\r\nAllows you to summon Efreets.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 20,
+				"description": "{Expert Summon Efreeti}\r\n\r\nAllows you to summon Efreet.\r\n\r\nOnce cast, any other creature can be summoned.",
+                "cost": 40,
                 "power": 4,
 				"aiValue": 13
             }

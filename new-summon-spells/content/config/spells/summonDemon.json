@@ -18,14 +18,14 @@
             "indifferent": true
         },
         "graphics": {
-            "iconBook": "AnotherSummon/demon_iconBook",
-            "iconScroll": "AnotherSummon/demon_iconScroll",
-            "iconScenarioBonus": "AnotherSummon/demon_iconScenario",
-            "iconEffect": "AnotherSummon/demon_iconEffect"
+            "iconBook": "demon/spellBook",
+            "iconScroll": "demon/spellScroll",
+            "iconScenarioBonus": "demon/bonusSpell",
+            "iconEffect": "demon/spellEffect"
         },
         "animation": {
             "cast": [
-                "AnotherSummon/C12SPF0.def"
+                "C12SPF0.def"
             ]
         },
         "sounds": {
@@ -53,26 +53,26 @@
                 }
             },
             "none": {
-                "cost": 24,
-                "power": 2,
+                "cost": 25,
+                "power": 1,
 				"aiValue": 10
             },
             "basic": {
 				"description": "{Basic Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, any other creature can be summoned.",
                 "cost": 20,
-                "power": 3,
+                "power": 2,
 				"aiValue": 11
             },
             "advanced": {
 				"description": "{Advanced Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 16,
-                "power": 4,
+                "cost": 20,
+                "power": 3,
 				"aiValue": 12
             },
             "expert": {
 				"description": "{Expert Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 12,
-                "power": 5,
+                "cost": 20,
+                "power": 4,
 				"aiValue": 13
             }
         }
