@@ -32,6 +32,13 @@
 	        "translation/new-summon-spells/czech.json"
 	    ]
 	},
+	"russian" : {
+		"name" : "Новые заклинания призыва",
+		"description" : "Новые заклинания призыва существ.",
+		"translations" : [
+			"translation/new-summon-spells/russian.json"
+		]
+	},
 	"polish" : {
 		"name" : "Nowe Zaklęcia Przyzwania",
 		"description" : "Nowe zaklęcia przyzwania stworzen",
