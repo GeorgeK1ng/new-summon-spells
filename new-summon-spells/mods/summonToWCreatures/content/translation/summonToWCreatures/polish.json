@@ -1,0 +1,6 @@
+{
+	"spell.tides-of-war.spells.summonGhost.description.advanced" : "{Zaawansowane Przywołanie Ducha}\r\n\r\nPozwala na przywołanie Ducha.\r\n\r\nPo rzuceniu zaklęcia można przywołać dowolne inne stworzenie.",
+	"spell.tides-of-war.spells.summonGhost.description.basic" : "{Podstawowe Przywołanie Ducha}\r\n\r\nPozwala na przywołanie Ducha.\r\n\r\nPo rzuceniu zaklęcia można przywołać dowolne inne stworzenie.",
+	"spell.tides-of-war.spells.summonGhost.description.expert" : "{Mistrzowskie Przywołanie Ducha}\r\n\r\nPozwala na przywołanie Ducha.\r\n\r\nPo rzuceniu zaklęcia można przywołać dowolne inne stworzenie.",
+	"spell.tides-of-war.spells.summonGhost.description.none" : "{Przywołanie Ducha}\r\n\r\nPozwala na przywołanie Ducha.\r\n\r\nPo rzuceniu zaklęcia można przywołać dowolne inne stworzenie."
+}
