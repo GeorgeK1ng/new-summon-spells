@@ -20,5 +20,12 @@
 	    "translations" : [
 	        "translation/summonAsylumCreatures/czech.json"
 	    ]
+	},
+        "polish":{
+		"name" : "Summon Asylum Creatures",
+		"description" : "Change Summon Jester description and exlusivity",
+	    "translations" : [
+	        "translation/summonAsylumCreatures/polish.json"
+	    ]
 	}
 }
